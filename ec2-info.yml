@@ -6,7 +6,7 @@
   tasks:
   - name: retrive info for the EC2 instances
     amazon.aws.ec2_instance_info:
-      region: {{ ec2_region }}
+      region: "{{ ec2_region }}"
     register: ec2_instance_info
 
   - name: mostrar informacoes
