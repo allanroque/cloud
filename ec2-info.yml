@@ -4,3 +4,5 @@
   tasks:
   - name: retrive info for the EC2 instances
     amazon.aws.ec2_instance_info:
+
+    
