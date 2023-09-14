@@ -1,6 +1,7 @@
 ---
 - name: coleta de informacoes ec2
   hosts: localhost
+  gather_facts: False
   vars:
     ec2_region: us-east-1
   tasks:
